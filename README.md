@@ -25,9 +25,7 @@ Users should be able to:
 ![desktop solution](/desktop%20solution.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel deployment](https://product-preview-card-component-neon-psi.vercel.app/)
 
 ### Built with
 
