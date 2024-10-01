@@ -1,0 +1,210 @@
+html {
+    font-size: 23px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(30, 38%, 92%);
+
+    margin: 0%;
+
+
+
+}
+
+div {
+    width: 14rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 10px;
+
+}
+
+figure {
+    margin: 0%;
+    height: 40%;
+    width: 100%;
+
+}
+
+figure img:first-child {
+    display: none;
+}
+
+figure img:nth-child(2) {
+    height: 100%;
+    width: 100%;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    color: hsl(228, 12%, 48%);
+
+    padding-bottom: 20px;
+
+    font-size: 9.5px;
+
+}
+
+article h1 {
+    font-weight: 500;
+
+    letter-spacing: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+article h2,
+article form p:first-child {
+    font-size: 23px;
+    font-family: "Fraunces 9pt";
+    font-weight: 700;
+}
+
+article h2 {
+    color: black;
+    margin: 0%;
+    margin-top: 7px;
+}
+
+article p {
+    margin: 7px 0;
+
+    line-height: 18px;
+}
+
+form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article form p:first-child {
+    margin: 0%;
+    margin-right: 15px;
+
+    color: hsl(158, 36%, 37%);
+}
+
+form button {
+    width: 100%;
+
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+
+    padding: 5% 0%;
+
+
+    border: 0;
+    border-radius: 10px;
+
+    font-weight: 700 !important;
+
+    margin-top: 5%;
+
+}
+
+button:hover {
+
+    background-color: hsl(158, 36%, 27%);
+}
+
+form button svg {
+    margin-right: 5%;
+}
+
+.montserrat {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+
+@media screen and (min-width: 786px) {
+
+    div {
+        width: 14rem;
+    }
+
+    article h1,
+    article p,
+    article form p:nth-child(2),
+    article form button {
+        font-size: 1.5em;
+    }
+
+    article h2,
+    article form p:first-child {
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1440px) {
+    div {
+
+        flex-direction: row;
+
+        height: 20rem;
+        width: 28rem;
+    }
+
+    figure {
+        height: 100%;
+        width: 55%;
+    }
+
+    figure img:nth-child(2) {
+        display: none;
+    }
+
+    figure img:first-child {
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    article {
+        height: 100%;
+        width: 45%;
+
+        justify-content: space-evenly;
+
+        padding: 0% 5%;
+    }
+
+    form button {
+        margin-top: 1rem;
+    }
+}
